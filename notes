@@ -1,0 +1,20 @@
+friend_comes=True
+money=True
+""" def and_movies(friend,money):
+    if friend==True and money==True:
+        print("Going to the movies")
+    else:
+        print("I have no friends or i have money")
+        and_movies(friend_comes,money) """
+""" def or_movies(friend,money):
+    if friend or money:
+        print("Going to the movies")
+    else:
+        print("I have no friends or i have money")
+        and_movies(friend_comes,money) """
+homework=True
+def not_movies(homework):
+    if not homework:
+        print("movie time")
+    else:
+        print("homework time,I Hate russian")
