@@ -21,22 +21,4 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
-def calculate_total_with_tip(bill, service_quality):
-    # Define the tip percentages based on service quality
-    tip_percentages = {
-        "bad": 0,
-        "okay": 0.15,
-        "good": 0.20,
-        "great": 0.25
-    }
-    
-    # Check if the service quality is valid
-    if service_quality not in tip_percentages:
-        return "Invalid service quality. Choose from 'bad', 'okay', 'good', or 'great'."
-    
-    # Calculate the tip
-    tip = bill * tip_percentages[service_quality]
-    total = bill + tip
-    
-    # Return the final amount with the tip
-    return total
+
