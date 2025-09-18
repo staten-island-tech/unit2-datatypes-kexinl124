@@ -1,4 +1,4 @@
-x = "bill"
+""" x = "bill"
 print(f"tip{x}")
 service = "good"
 if service=="great" :
@@ -8,5 +8,19 @@ elif service == "okay":
 elif service =="good":
     print('15% tip')
 else:
-    print('0 tip')
+    print('0 tip') """
 
+x="bill"
+print(f"tip{x}")
+service = ["bad"or"okay"or"good"or"great"]
+print(service)
+for i in service:
+    print(i)
+if service == "great" :
+    print('25% tip')
+elif service == "okay":
+    print('5% tip')
+elif service =="good":
+    print('15% tip')
+elif service == "bad":
+     print('0 tip')
