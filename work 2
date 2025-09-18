@@ -1,0 +1,12 @@
+x = "bill"
+print(f"tip{x}")
+service = "good"
+if service=="great" :
+    print('25% tip')
+elif service == "okay":
+    print('5% tip')
+elif service =="good":
+    print('15% tip')
+else:
+    print('0 tip')
+

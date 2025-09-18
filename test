@@ -5,4 +5,19 @@ values = [1,2.23,5,7,2,30,15]
 print(values)
 for i in values:
     print(i) """
-print( 4 %2)
+#print( 4 %2)
+""" def factor(x,y):
+    if x % y==0
+    print("f(y) is a factor of (x)")
+    factor(25,5)
+factor(6734,64) """
+x = "test"
+print(f"hello {x}")
+
+temp = 12
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
