@@ -10,17 +10,16 @@ elif service =="good":
 else:
     print('0 tip') """
 
-x="bill"
-print(f"tip{x}")
-service = ["bad"or"okay"or"good"or"great"]
-print(service)
-for i in service:
-    print(i)
-if service == "great" :
-    print('25% tip')
+
+def bill(x):
+    bill(15)
+service = ["bad","okay","good","great"]
+if service == "bad":
+        print('0% tip')
 elif service == "okay":
-    print('5% tip')
-elif service =="good":
-    print('15% tip')
-elif service == "bad":
-     print('0 tip')
+        print('5% tip')
+elif service == "good":
+        print('15% tip')
+else:
+        print('20% tip')
+    
