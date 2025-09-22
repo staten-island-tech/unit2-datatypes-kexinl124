@@ -11,10 +11,11 @@ for i in values:
     print("f(y) is a factor of (x)")
     factor(25,5)
 factor(6734,64) """
-""" x = "test"
+""" 
+x = "test"
 print(f"hello {x}")
 
-temp = 12
+temp = 75
 if temp > 68:
     print('warm')
 elif temp == 68:
@@ -22,3 +23,9 @@ elif temp == 68:
 else:
     print('cold') """
 
+x = "this is a thing"
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
+  

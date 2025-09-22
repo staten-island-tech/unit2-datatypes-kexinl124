@@ -1,7 +1,8 @@
-def even_or_odd(number):
- if 'number' % 2==0:
-        print("even")
- else:
+even_or_odd = input("Is the number even or odd")
+n=int
+if n%2 == 0:
+        print("even") 
+else:
         print("odd")
 
 
