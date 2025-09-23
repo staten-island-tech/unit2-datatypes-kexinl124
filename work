@@ -1,5 +1,4 @@
-even_or_odd = input("Is the number even or odd")
-n=int
+n=int(input("integer:"))
 if n%2 == 0:
         print("even") 
 else:
