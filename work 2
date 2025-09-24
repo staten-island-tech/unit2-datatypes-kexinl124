@@ -11,15 +11,28 @@ else:
     print('0 tip') """
 
 
-def bill(x):
-    bill(15)
-service = ["bad","okay","good","great"]
-if service == "bad":
-        print('0% tip')
-elif service == "okay":
-        print('5% tip')
-elif service == "good":
-        print('15% tip')
-else:
-        print('20% tip')
-    
+def tip_calcautor():
+    bill = float(input("Your Bill:"))
+    service = input("How do you think about the service? bad? okay? good? or great? ")
+
+    if service == "bad":
+            rate = 0.00
+            print('0% tip')
+    elif service == "okay":
+            rate = 0.05
+            print('5% tip')
+    elif service == "good":
+            rate = 0.15
+            print('15% tip')
+    elif service == "great":
+            rate = 0.20
+            print('20% tip')
+    else:
+            print("other amount")
+            rate = 0.0
+        
+    tip = bill * rate
+    total = bill + tip
+    print("Tip amount: " + str(round(tip, 2)))
+    print("Your Total bill is: $" + str(round(total, 2)))
+tip_calcautor()

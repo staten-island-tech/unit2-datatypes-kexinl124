@@ -1,0 +1,8 @@
+b=bill
+t=tip
+t_t=total
+def t_t(b+t):
+b=input(int,float(" "))
+t=input(int(" "))
+
+
