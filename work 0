@@ -1,0 +1,9 @@
+def find_number_words():
+ x=input("Enter a sentence: ")
+ y= x.split( )
+ print(y)
+
+
+
+
+
