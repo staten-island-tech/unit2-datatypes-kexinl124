@@ -6,9 +6,13 @@
 def find_number_words():
  x = input("Enter a sentence: ")
  y= x.split
- z= (f"There is {y} words")
+ find_number_words(f"There is {y} words")
  print(y)
- print(z)
+
+# Mad Libs Project
+noun=input("enter a noun:")
+v
+ 
 
 
 
