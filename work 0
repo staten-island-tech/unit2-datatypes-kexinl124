@@ -3,15 +3,27 @@
  y= x.split( )
  print(y) """
 
-def find_number_words():
+""" def find_number_words():
  x = input("Enter a sentence: ")
  y= x.split
  find_number_words(f"There is {y} words")
  print(y)
 
 # Mad Libs Project
-noun=input("enter a noun:")
-v
+noun=input("enter a noun:") """
+
+def find_gcf(a,b):
+    for i in range(1, a+1):
+      if (a % i == 0) and (b % i == 0):
+         gcf = i
+    print(f"The gcf is {gcf}")
+
+number_a = int(input("a= "))
+number_b= int(input("b= "))
+gcf = find_gcf(number_a,number_b)
+
+
+
  
 
 
